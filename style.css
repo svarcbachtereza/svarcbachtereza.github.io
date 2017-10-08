@@ -1,0 +1,82 @@
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: "Ubuntu", sans-serif;
+  font-weight:400;
+  color: #00293C;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 12rem;
+  margin-left: 8rem;
+  margin-right: 4rem;
+  color: #00293C;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:active{
+  color: F62AOO;
+  top: 0.25rem;
+}
+
+#banner h1{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10rem;
+  color: #F1F3CE;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+#banner {
+  background-image: url(14.jpg);
+  background-position: center;
+  height: 69rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+
+#intro {
+  height: 69rem;
+  border-bottom: 0.25rem dotted #00293C;
+  padding: 2rem;
+}
+
+#experience {
+  height: 69rem;
+  border-bottom: 0.25rem dotted #00293C;
+  padding: 2rem;
+}
+
+.column {
+     width: 70rem;
+     float:left
+}
+
+#skills {
+  height: 69rem;
+  border-bottom: 0.25rem dotted #00293C;
+  padding: 2rem;
+}
+
+#contact {
+  height: 69rem;
+  padding: 2rem;
+}
